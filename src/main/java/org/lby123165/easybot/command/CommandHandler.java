@@ -86,9 +86,9 @@ public class CommandHandler {
 
     private int showHelp(CommandContext<ServerCommandSource> context) {
         ServerCommandSource source = context.getSource();
-        
-        String helpMsg = """
-                §6--------§a EasyBot Fabric V1.0.0§r--------
+
+        String helpMsg = String.format("""
+                §6--------§a EasyBot Fabric V%s§r--------
                 §b/ez help §f- §c显示帮助菜单
                 §b/ez reload §f- §c重载配置文件 (需要OP权限)
                 
@@ -118,7 +118,7 @@ public class CommandHandler {
                 §b/ez bot carpet remove <prefix> §f- §c移除Carpet假人过滤前缀
                 §b/ez bot carpet list §f- §c显示Carpet假人过滤前缀列表
                 §6---------------------------------------------
-                """;
+                """, FabricClientProfile.getPluginVersion());
 
         for (String line : helpMsg.split("\n")) {
             if (!line.trim().isEmpty()) {
