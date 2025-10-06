@@ -14,7 +14,7 @@
 
 ## 🚀 安装与配置
 
-[Easybot文档](https://docs.inectar.cn/)
+[EasyBot文档](https://docs.inectar.cn/)
 
 [用户交流群](https://docs.inectar.cn/join-qq-group)
 ### 1. 前置要求
