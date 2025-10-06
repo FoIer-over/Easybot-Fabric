@@ -12,6 +12,7 @@ import org.lby123165.easybot.EasyBotFabric;
 import org.lby123165.easybot.bridge.BridgeClient;
 import org.lby123165.easybot.config.EasyBotConfig;
 import org.lby123165.easybot.util.BotFilterUtil;
+import org.lby123165.easybot.bridge.FabricClientProfile;
 
 import java.util.concurrent.CompletableFuture;
 
